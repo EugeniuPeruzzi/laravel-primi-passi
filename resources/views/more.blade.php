@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="./resources/css/app.css">
     </head>
     <body>
-        <h3> {{ $more }}</h3>
+        <h3> {{ $title }}</h3>
+        <h5>{{ $difficulty }}</h5>
         <a href="/">Home</a>
     </body>
 </html>

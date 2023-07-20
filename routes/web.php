@@ -25,6 +25,9 @@ Route::get('/about-us', function () {
 
 Route::get('/more', function () {
     
-    $more = 'Siamo all\'introduzione di Laravel, e sembra molto figo';
-    return view('more', compact('more'));
+    $data = [
+        'title' => 'Siamo all\'introduzione di Laravel, e sembra molto figo',
+        'difficulty' => 'Richiede impegno come tutte le cose',
+        ];
+    return view('more', $data);
 });
