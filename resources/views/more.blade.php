@@ -8,9 +8,10 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-      
+        <link rel="stylesheet" href="./resources/css/app.css">
     </head>
     <body>
-        <h2>{{ $content }}</h2>
+        <h3> {{ $more }}</h3>
+        <a href="/">Home</a>
     </body>
 </html>

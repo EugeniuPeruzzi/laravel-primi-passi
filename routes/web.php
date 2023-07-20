@@ -17,9 +17,14 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/hi-there', function () {
+Route::get('/about-us', function () {
     
-    $content = 'Come ti va?';
+    $content = 'Siamo la calsse 99# del corso Full Stack Web Developer';
+    return view('about-us', compact('content'));
+});
 
-    return view('hi-there', compact('content'));
+Route::get('/more', function () {
+    
+    $more = 'Siamo all\'introduzione di Laravel, e sembra molto figo';
+    return view('more', compact('more'));
 });
