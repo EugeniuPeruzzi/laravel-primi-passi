@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/hi-there', function () {
+    
+    $content = 'Come ti va?';
+
+    return view('hi-there', compact('content'));
+});

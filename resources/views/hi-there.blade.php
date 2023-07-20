@@ -11,7 +11,6 @@
       
     </head>
     <body>
-        <h2>Hello world</h2>
-        <a href="/hi-there">Come ti va?</a>
+        <h2>{{ $content }}</h2>
     </body>
 </html>
