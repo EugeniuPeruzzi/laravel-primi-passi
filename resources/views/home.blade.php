@@ -26,13 +26,14 @@
 
     <body>
         <div class="container">
-            <div class="row">
+            <div class="row d-flex align-items-center justify-content-between mt-5">
                 <div class="col-4">
                     <h2>Hello world</h2>
                 </div>
                 <div class="col-8 d-flex align-items-center justify-content-center">
                     <a href="/about-us">About US</a>
-                    <a class="ms-5" href="/more">Cosa stiamo introducendo?</a>
+                    <a class="ms-5" href="/more">What we are doing?</a>
+                    <a class="ms-5" href="/">Home</a>
                 </div>
             </div>
         </div>
